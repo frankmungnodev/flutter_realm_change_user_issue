@@ -1,16 +1,19 @@
 # realm_example
 
-A new Flutter project.
+Change mongodb atlas app user but data not changing.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+There are two accounts
 
-A few resources to get you started if this is your first Flutter project:
+```
+user1@test.com
+password - user1@test
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+user2@test.com
+password - user2@test
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can change account but todo list not updated after changing account. You have to restart your app.
